@@ -53,6 +53,10 @@ body{
 	border-bottom: 1px solid lightgray;
 }
 
+.at{
+	cursor: text;
+}
+
 .at:before{
 	content: "@";
 }
