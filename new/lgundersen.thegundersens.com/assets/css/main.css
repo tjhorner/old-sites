@@ -1,0 +1,131 @@
+body{
+	font-family: "Arial";
+	margin: 0;
+}
+
+.card{
+	width: 600px;
+	height: 120px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid lightgray;
+	margin: 0 auto;
+}
+
+.card-left{
+	padding-top: 10px;
+	float: left;
+}
+
+.card-right{
+	float: right;
+	text-align: center;
+	height: 100%;
+	width: 440px;
+	margin-left: 50px;
+	padding-left: 5px;
+	border-left: 0px solid lightgray;
+}
+
+.card-img{
+	height: 100px;
+	width: 100px;
+}
+
+.circle{
+	border-radius: 50px;
+}
+
+.card-right h1{
+	padding-top: 19px;
+}
+
+.center{
+	text-align: center;
+}
+
+.content{
+	padding-top: 50px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.content h2{
+	border-bottom: 1px solid lightgray;
+}
+
+.at:before{
+	content: "@";
+}
+
+.btn{
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-transition: background-color .2s;
+	transition: background-color .2s;
+	border-radius: 5px;
+	color: white;
+	height: 30px;
+	border:none;
+	background-color: #969696;
+	cursor: hand;
+}
+
+.btn:hover{
+	background-color: gray;
+}
+
+.btn:active{
+	background-color: black;
+}
+
+/* Site cards */
+.site-cards{
+	display: table;
+	margin: 0 auto;
+}
+
+.site-card:first-of-type{
+	margin-left: 0px;
+}
+
+.site-card{
+	display: inline-block;
+	margin-left: 50px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	width: 141px;
+	height: 200px;
+	box-shadow: 0px 0px 20px #888888;
+}
+
+.site-card-img{
+	height: 100px;
+	width: auto;
+	margin: 0 auto;
+	border-bottom: 1px solid lightgray;
+}
+
+.site-card-title{
+	padding-top: 5px;
+	text-align: center;
+}
+
+.site-card-btn{
+	position: relative;
+	top: 9%;
+	display: table;
+	margin: 0 auto;
+}
+/* End site cards */
+
+footer{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 10pt;
+	text-align: center;
+	color: gray;
+}
+
+footer a{
+	color: gray;
+}
