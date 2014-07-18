@@ -58,6 +58,7 @@ body{
 }
 
 .btn{
+	text-decoration: none;
 	outline: 0;
 	-moz-border-radius: 5px;
 	-webkit-transition: background-color .2s;
@@ -89,6 +90,7 @@ body{
 }
 
 .site-card{
+	text-decoration: none;
 	display: inline-block;
 	margin-left: 50px;
 	cursor: hand;
